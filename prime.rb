@@ -8,8 +8,8 @@ def prime?(number)# Add  code here!
   end
 
   n = 2
-  squareRoot = cmath.sqrt(number)
-  while n > squareRoot
+  comparisonValue = number / 2
+  while n > comparisonValue
     result = number / n
     return false if n.is_a? Integer
     n = n + 1
