@@ -11,7 +11,7 @@ def prime?(number)# Add  code here!
 
   n = 2
   comparisonValue = Math.sqrt(number)
-  while n < comparisonValue
+  while n <= comparisonValue
     result = number / n
     return false if n.is_a? Integer && n != 0 && n != 1
     n = n + 1
