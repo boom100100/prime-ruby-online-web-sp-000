@@ -9,7 +9,7 @@ def prime?(number)# Add  code here!
     return true
   end
 
-  n = 1
+  n = 2
   comparisonValue = Math.sqrt(number)
   while n < comparisonValue
     result = number / n
