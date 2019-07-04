@@ -8,7 +8,7 @@ def prime?(number)# Add  code here!
   end
 
   n = 2
-  comparisonValue = number / 2
+  comparisonValue = Math.sqrt(number)
   while n > comparisonValue
     result = number / n
     return false if n.is_a? Integer
