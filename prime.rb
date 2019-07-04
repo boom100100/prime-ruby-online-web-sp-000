@@ -11,10 +11,10 @@ def prime?(number)# Add  code here!
   squareRoot = cmath.sqrt(number)
   while n > squareRoot
     result = number / n
-    return true if n.is_a? Integer
+    return false if n.is_a? Integer
     n = n + 1
   end
-  return false
+  return true
 
 
 end
