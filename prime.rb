@@ -16,5 +16,5 @@ def prime?(number)# Add  code here!
   end
   return false
 
-  
+
 end
